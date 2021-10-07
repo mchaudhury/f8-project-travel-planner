@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todo.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <div class="todobox">
+          <div id="myDIV" class="header">
+            <h2
+              style="
+                margin: 5px;
+                color: skyblue;
+                font-size: 35px;
+                font-family: cursive;
+              "
+            >
+              Travel Planner
+            </h2>
+            <input
+              type="text"
+              id="myInput"
+              placeholder="What are going to do?..."
+            />
+            <span onclick="newElement()" class="addBtn">Add Activity</span>
+          </div>
+
+          <ul id="myUL"></ul>
+        </div>
+      </form>
+    </main>
+    <script src="todo.js"></script>
+  </body>
+</html>

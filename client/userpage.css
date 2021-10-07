@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: snow;
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkslategray;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  width: 100vw;
+  min-height: 350px;
+  /* background-color: blue; */
+  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 30px;
+}
+
+form h1 {
+  color: snow;
+}
+
+button {
+  background-color: #232323;
+  width: 125px;
+  height: 25px;
+  color: greenyellow;
+  border: 1px solid;
+  border-radius: 5px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.planner {
+  background-color: orange;
+
+  color: black;
+  border: none;
+}
+
+input[type="text"] {
+  width: 85%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #232323;
+  color: #232323;
+  background-color: snow;
+}
+
+input[type="password"] {
+  width: 85%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #232323;
+  color: #232323;
+  background-color: snow;
+}
+
+#user-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-card {
+  background-color: turquoise;
+  width: 300px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.user-card-2 {
+  background-color: rgb(153, 204, 199);
+  width: 300px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.username {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.email {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.first-name {
+  font-size: 15px;
+  margin: 5px 0;
+}
+.message {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.last-name {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.btns-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+.btns-container > button {
+  width: 20px;
+}
+.color4 {
+  color: black;
+  font-weight: normal;
+  background-color: maroon;
+}
+.color5 {
+  color: black;
+  font-weight: normal;
+  background-color: yellow;
+}
+
+.color6 {
+  color: black;
+  font-weight: normal;
+  background-color: orange;
+}
+.color7 {
+  color: black;
+  font-weight: normal;
+  background-color: gold;
+  font-style: italic;
+}

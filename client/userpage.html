@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="userpage.css" />
+    <title>UserPage</title>
+  </head>
+  <body>
+    <h1 style="color: wheat;">
+      WELCOME! FIND YOUR DESTINATION......................
+    </h1>
+    <br />
+
+    <button id="california"">California</button>
+    <button id="texas">Texas</button>
+    <button id="utah">Utah</button>
+    <button id="newyork">New York</button>
+    <button id="florida">Florida</button>
+    <a href="todo.html"><button class='planner'>Plannner</button></a>
+    <section id="states"></section>
+    <section id="states2"></section>
+    <section id="states3"></section>
+    <section id="states4"></section>
+    <section id="states5"></section>
+
+    <div class="color3">
+      <form id="weatherForm" class="color4">
+        <input
+          type="text"
+          name="city"
+          id="city"
+          placeholder="TYPE THE NAME OF A CITY"
+          class="color5"
+        />
+        <button type="submit" class="color6">Forecast</button>
+      </form>
+    </div>
+
+    <div id="weatherContainer" class="color7"></div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="userpage.js"></script>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelR</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>TravelR</h1>
+    </header>
+
+    <div>
+      <video autoplay muted loop id="myVideo">
+        <source src="https://travelappmo.s3.us-east-2.amazonaws.com/travel.mp4" type="video/mp4" />
+        Your browser does not support HTML5 video.
+      </video>
+  
+      <div class="content">
+        <h1>TravelR</h1>
+        <p>
+          Plan your next adventure with us!
+        </p>
+      </div>
+    </div>
+    <main>
+      <form id="register-form">
+        <!-- <h1>Register</h1> -->
+        <input type="text" id="register-username" placeholder="Username" />
+        <input type="text" id="register-email" placeholder="Email" />
+        <input type="text" id="register-firstName" placeholder="First Name" />
+        <input type="text" id="register-lastName" placeholder="Last Name" />
+        <input type="password" id="register-password" placeholder="Password" />
+        <input
+          type="password"
+          id="register-password-2"
+          placeholder="Confirm Password"
+        />
+        <button>Sign-Up</button>
+        <section id="user-info"></section>
+      </form>
+
+      
+      <form id="login-form">
+        <!-- <h1>Log In</h1> -->
+        <input type="text" id="login-username" placeholder="Username" />
+        <input type="password" id="login-password" placeholder="Password" />
+        <button>Sign In</button>
+        <section id="user-info-login"></section>
+      </form>
+     
+
+      <!-- <section id="user-info"></section>
+      <section id="user-info-login"></section> -->
+    </main>
+   
+    </body>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

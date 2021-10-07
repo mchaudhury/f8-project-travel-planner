@@ -1,0 +1,10 @@
+"I Love Cryptography", "
+
+Every letter would be transformed into the next letter in the alphabet. While deciphering,
+the every letter of the message would be turned into the letter before on the alphabet.
+
+Encipher:
+"J Mpuf Dszquphsbqiz"
+
+Decipher:
+"I Love Cryptography"
