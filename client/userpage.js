@@ -89,6 +89,6 @@ const displayWeather = (weather) => {
   let description = weather.weather[0].description;
   let city = document.getElementById("city");
   const weatherEntry = document.createElement("div");
-  weatherEntry.innerHTML = `<h2 style="width: 47.5vw">${description}</h2>`;
+  weatherEntry.innerHTML = `<h2 style="width: 47.5vw"> ${description}</h2>`;
   weatherContainer.appendChild(weatherEntry);
 };

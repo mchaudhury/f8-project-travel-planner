@@ -23,7 +23,7 @@ main {
 }
 
 form {
-  width: 47.5vw;
+  width: 47.8vw;
   min-height: 350px;
   /* background-color: blue; */
   background: linear-gradient(90deg, #148eaf 0%, #000851 100%);
@@ -33,7 +33,7 @@ form {
   justify-content: space-evenly;
   align-items: center;
   margin: 30px;
-  margin-left: 8px;
+  margin-left: 5px;
   /* border: solid 1px; */
 
   border-radius: 5px;
