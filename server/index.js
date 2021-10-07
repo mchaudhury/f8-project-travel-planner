@@ -11,5 +11,6 @@ const { login, register, getWeather } = require("./controllers/auth");
 app.post(`/api/login`, login);
 app.post(`/api/register`, register);
 app.get("/api/weather/:city", getWeather);
+// app.get(`/api/userpage`, () => {(req,res)} );
 
 app.listen(4004, () => console.log(`running on 4004`));

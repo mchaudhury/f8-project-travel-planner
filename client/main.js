@@ -9,11 +9,11 @@ const login = (body) =>
     .post(`${baseURL}/login`, body)
     .then((res) => {
       createUserCardLogin(res.data);
-      alert("Log in successful!");
+      alert("Sign-In successful!");
     })
     .catch((err) => {
       console.log(err);
-      alert("Uh oh. Your request did not work.");
+      alert("Error: Sign-In Unsuccessful. Enter Correct Credentials.");
     });
 const register = (body) =>
   axios
@@ -23,7 +23,7 @@ const register = (body) =>
     })
     .catch((err) => {
       console.log(err);
-      alert("Uh oh. Your request did not work.");
+      alert("ERROR: Your request did not work.");
     });
 
 function loginSubmitHandler(e) {

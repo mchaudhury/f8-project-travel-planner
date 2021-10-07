@@ -23,16 +23,20 @@ main {
 }
 
 form {
-  width: 100vw;
+  width: 47.5vw;
   min-height: 350px;
   /* background-color: blue; */
-  background: linear-gradient(90deg, #1cb5e0 0%, #000851 100%);
+  background: linear-gradient(90deg, #148eaf 0%, #000851 100%);
   position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   margin: 30px;
+  margin-left: 8px;
+  /* border: solid 1px; */
+
+  border-radius: 5px;
 }
 
 form h1 {
@@ -161,4 +165,8 @@ input[type="password"] {
   font-weight: normal;
   background-color: gold;
   font-style: italic;
+  width: 47.5vw;
+  margin-left: 8px;
+
+  border-radius: 5px;
 }

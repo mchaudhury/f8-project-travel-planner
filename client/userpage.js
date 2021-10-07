@@ -18,8 +18,8 @@ function createUserCard() {
   const userCard = document.createElement("div");
   userCard.classList.add("user-card");
 
-  userCard.innerHTML = `<ul class="username"><li><a href="https://en.wikipedia.org/wiki/Los_Angeles">Los Angeles</a></li>
-  <li><a href="https://en.wikipedia.org/wiki/San_diego">San Diego</a></li></ul>`;
+  userCard.innerHTML = `<ul class="username"><li><a href="https://en.wikipedia.org/wiki/Los_Angeles" target="_blank">Los Angeles</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/San_diego" target="_blank">San Diego</a></li></ul>`;
 
   userContainer.appendChild(userCard);
 }
@@ -87,7 +87,8 @@ weatherForm.onsubmit = (event) => {
 };
 const displayWeather = (weather) => {
   let description = weather.weather[0].description;
+  let city = document.getElementById("city");
   const weatherEntry = document.createElement("div");
-  weatherEntry.innerHTML = `<h2>${description}</h2>`;
+  weatherEntry.innerHTML = `<h2 style="width: 47.5vw">${description}</h2>`;
   weatherContainer.appendChild(weatherEntry);
 };

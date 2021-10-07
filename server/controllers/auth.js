@@ -14,6 +14,7 @@ module.exports = {
           let userToReturn = { ...users[i] };
           delete userToReturn.passwordHash;
           res.status(200).send(userToReturn);
+          // res.redirect(200, "/client/userpage.html");
           return;
           // If no return statement the code will move on to execute the next line (res.status(400).)
           //because it is a for loop we are using (and they are within the same block), after it finishes
